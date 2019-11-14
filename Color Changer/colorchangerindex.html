@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="colorchangercss.css">
+    <title>Color Changing</title>
+</head>
+<body>
+    <h1 id = "head-title"> Color Changing Game</h1>
+    <!-- red -->
+    <div id="red-box" class="box"></div>
+    <input type="range" min="0" max="255" id='rInput' class="color-input">
+    <!-- green -->
+    <div id="green-box" class="box"></div>
+    <input type="range" min="0" max="255" id="gInput" class="color-input">
+    <!-- blue -->
+    <div id="blue-box" class="box"></div>
+    <input type="range" min="0" max="255" id ="bInput" class="color-input">
+    <!-- generate color -->
+    <div id="button-container">
+        <button type="button" id="color-reset">Why're You Still Like This?!</button>
+        <button type="button" id="color-change">You've Changed!!</button>
+        
+    </div>
+
+<script src="colorchangerscript.js"></script>
+</body>
+</html>
